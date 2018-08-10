@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New Product Addition</title>
+</head>
+<body>
+<script type="text/javascript" src="formValidate.js"></script>
+<form method="post" action="DisplayProductId" onsubmit="return validate()">
+Name : <input type="text" name="Name" id="Name" ><br/><div id="errName"></div><br>
+Price : <input type="text" name="Price" id="Price" ><br/><div id="errPrice"></div><br>
+Qoh : <input type="text" name="Qoh" id="Qoh" ><br/><div id="errQoh"></div><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
